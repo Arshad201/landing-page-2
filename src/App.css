@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap');
+
+/* 
+
+font-family: 'Outfit', sans-serif;
+font-family: 'Work Sans', sans-serif; 
+
+*/
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: white;
+  --black: black;
+  --dimGray: #5A5A5A;
+  --primary: #756BEE;
+  --darkBlue: #0F0D1C;
+  --midBlue: #39364E;
+  --lightBluishGray: #F5F4F0;
+  --gray: #696969;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--white);
+}
+
+.dimGrayText{
+  color: var(--dimGray);
+}
+
+.blackText{
+  color: var(--black);
+}
+
+.blueText{
+  color: var(--primary);
+}
+
+.darkBlueText{
+  color: var(--darkBlue);
+}
+
+.midBlueText{
+  color: var(--midBlue);
+}
+
+.grayText{
+  color: var(--gray);
+}
+
+.btn{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 1.4rem 4rem;
+  border-radius: 20rem;
+  border: 2px solid var(--primary);
+  transition: .5s ease-in-out;
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: var(--primary);
+  transition: .5s ease-in-out;
+}
+
+.heading-v1{
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 0.01em;
+}
+
+.heading-v2{
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.01em;
+}
+
+.text-v1{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0.01em;
+}
+
+.text-v2{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.005em;
+}
+
+
+@media only screen and (max-width: 1920px) {
+  html{
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  html{
+    font-size: 87%;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  html{
+    font-size: 81%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  html{
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  html{
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  html{
+    font-size: 59.5%;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+
+  .text-v1{
+    font-size: 1.7rem;
+    line-height: 1.6em;
+  }
+  
+  .text-v2{
+    font-size: 1.6rem;
+    line-height: 1.5em;
+  }
+
+
+
+}
+
+
+
+
+
+

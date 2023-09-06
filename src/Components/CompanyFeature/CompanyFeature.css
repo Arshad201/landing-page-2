@@ -1,0 +1,97 @@
+.feature{
+    background: var(--lightBluishGray);
+}
+
+.feature-wrapper{
+    width: 75%;
+    margin: 0% auto;
+    padding: 10rem 0%;
+}
+
+.heading-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: fit-content;
+    margin: 0% auto;
+}
+
+.feature-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3.5rem;
+}
+
+.feature-card{
+    padding: 3rem;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.feature-card-heading{
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 0.01em;
+}
+
+
+.feature-card img{
+    height: 7rem;
+}
+
+.active-feature-card{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+@media only screen and (max-width: 1024px) {
+    .feature-wrapper{
+        width: 85%;
+    }
+}
+
+
+@media only screen and (max-width: 930px) {
+
+    .feature-card-container{
+        flex-wrap: wrap;
+    }
+    
+    .feature-card{
+        flex-basis: 48%;
+    }
+    .feature-card-container > :last-child{
+        flex-grow: 3 ;
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+
+    .heading-text-container{
+        text-align: center;
+    }
+
+    .feature .heading-v1{
+        padding: 0% 5vw;
+    }
+
+    .feature .text-v1{
+        padding: 0% 10vw;
+    }
+    .feature-card-container{
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+

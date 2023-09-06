@@ -1,0 +1,136 @@
+.hero{
+    padding-top: 4.5%;
+    width: 100%;
+    background: url('../../assets/icons/hero-pattern.svg') top right/3rem no-repeat, url('../../assets/icons/hero-pattern.svg')  0% 90%/3rem no-repeat;
+    background-color: #FBF7EC;
+}
+
+.hero-wrapper{
+    width: 75%;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text-content{
+    flex: 1;
+}
+
+.hero-heading{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+    padding-right: 20%;
+}
+
+.hero-desc{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.01em;
+    padding: 4% 12% 9% 0%;
+}
+
+.hero-img-wrapper{
+    flex: 1;
+    text-align: center;
+}
+
+.hero-img-wrapper img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1226px) {
+    .hero-heading{
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .hero-heading{
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero-wrapper{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 866px) {
+
+    .hero{
+        padding: 5% 0%;
+    }
+    .hero-heading{
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+
+    .hero-desc{
+        font-size: 1.6rem;
+        line-height: 1.6em;
+    }
+    
+    .hero-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .hero-text-content{
+        text-align: center;
+        padding: 4rem 0rem;
+    }
+
+    .hero-heading{
+        padding: 0% 10%;
+    }
+
+    .hero-desc{
+        padding: 2rem 15% 4rem 15%;
+    }
+
+    .hero-img-wrapper img{
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+
+    .hero-wrapper{
+        width: 95%;
+    }
+
+    .hero-desc{
+        padding: 2rem 10% 4rem 10%;
+    }
+
+    .hero-img-wrapper img{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-heading{
+        font-size: 4rem;
+    }
+
+    .hero-desc{
+        padding: 2rem 5% 4rem 5%;
+    }
+}
+
+
+
+
+
+
+

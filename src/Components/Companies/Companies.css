@@ -1,0 +1,32 @@
+.company-wrapper{
+    width: 75%;
+    margin: 10rem auto;
+}
+
+.company-wrapper h3{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.company-wrapper div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.company-wrapper div img{
+    height: 2.7rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .company-wrapper div{
+        gap: 4rem;
+        flex-wrap: wrap;
+    }
+}
